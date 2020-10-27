@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/brython@3.9.0/brython.min.js">
+    </script>
+</head>
+<body onload=brython({"debug":1})>
+
+<button type="button">Yes</button>
+<button type="button">No</button>
+
+<script type="text/python3">
+    from browser import document as doc
+</script>
+
+
+<script type="text/python3">
+    from interpreter import Interpreter
+    Interpreter("console")
+</script>
+
+<hr>
+
+<iframe src="https://brython.info/console.html" width="100%" height="400"></iframe>
+
+</body>
+</html>
+
+
